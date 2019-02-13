@@ -26,6 +26,8 @@ if(!empty($_FILES['photo']))
 	$finder = new Geofinder();
 	$coords = $finder->getCoords($photo['tmp_name']);
 
+	var_dump($coords); //return array(2) { ["latitude"]=> float(47.977730555556) ["longitude"]=> float(-4.4286277777778) } or false if geolocation not found
+
 	if($coords){
 		$lat = $coords['latitude']; //get latitude
 		$lng = $coords['longitude']; //get longitude
