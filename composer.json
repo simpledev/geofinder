@@ -1,0 +1,42 @@
+{
+    "name": "simpledev/geofinder",
+    "description": "Geofinder find geolocation in jpeg photos metadata",
+    "keywords": [
+        "simpledev",
+        "geofinder"
+    ],
+    "homepage": "https://github.com/simpledev/geofinder",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fabien LE CORRE",
+            "email": "lcorrefabien@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simpledev\\Geofinder\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Simpledev\\Geofinder\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
