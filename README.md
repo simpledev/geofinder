@@ -1,10 +1,5 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/simpledev/geofinder.svg?style=flat-square)](https://packagist.org/packages/simpledev/geofinder)
-[![Build Status](https://img.shields.io/travis/simpledev/geofinder/master.svg?style=flat-square)](https://travis-ci.org/simpledev/geofinder)
-[![Quality Score](https://img.shields.io/scrutinizer/g/simpledev/geofinder.svg?style=flat-square)](https://scrutinizer-ci.com/g/simpledev/geofinder)
-[![Total Downloads](https://img.shields.io/packagist/dt/simpledev/geofinder.svg?style=flat-square)](https://packagist.org/packages/simpledev/geofinder)
-
 This package can find latitude and longitude from jpeg photos metadata.
 
 ## Installation
