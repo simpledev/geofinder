@@ -12,7 +12,7 @@ This package can find latitude and longitude from jpeg photos metadata.
 You can install the package via composer:
 
 ```bash
-composer require simpledev/geofinder
+composer require simpledev/geofinder:dev-master
 ```
 
 ## Usage Example
