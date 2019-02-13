@@ -32,12 +32,6 @@ if(!empty($_FILES['photo']))
 }
 ```
 
-### Testing
-
-``` bash
-composer test
-```
-
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
