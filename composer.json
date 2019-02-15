@@ -6,7 +6,9 @@
         "geofinder",
         "image",
         "photo",
-        "geolocation"
+        "geolocation",
+        "latitude",
+        "longitude"
     ],
     "homepage": "https://github.com/simpledev/geofinder",
     "license": "MIT",
