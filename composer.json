@@ -3,7 +3,10 @@
     "description": "Geofinder find geolocation in jpeg photos metadata",
     "keywords": [
         "simpledev",
-        "geofinder"
+        "geofinder",
+        "image",
+        "photo",
+        "geolocation"
     ],
     "homepage": "https://github.com/simpledev/geofinder",
     "license": "MIT",
